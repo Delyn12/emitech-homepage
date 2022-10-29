@@ -1,0 +1,219 @@
+/* CSS Document */
+
+#dash-content .dashboard-homepage-wrapper .card-counter{
+		display: grid;
+		grid-template-columns: repeat(4, minmax(150px, 1fr));
+		grid-column-gap: 30px;
+		grid-row-gap: 15px;
+		margin: 0.5rem 0px;
+	}
+	
+	
+	#dash-content .dashboard-homepage-wrapper .card-counter .card{
+		background-color: #fff;
+		box-shadow: 0px 8px 8px rgba(0, 0, 0 ,0.2);
+		margin: 5px;
+		height: 120px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		padding: 15px;
+	}
+	
+	
+	#dash-content .dashboard-homepage-wrapper .card-counter .card .icon{
+		font-size: 1.5rem;
+		color: var(--sidebar-bg-color);
+	}
+	
+	#dash-content .dashboard-homepage-wrapper .card-counter .card .value-wrapper .text{
+		font-size: var(--large-font);
+		text-transform: capitalize;
+		font-weight: 700;
+		font-family: 'Poppins', sans-serif;
+		color: var(--sidebar-bg-color);
+		letter-spacing: 0.6px;
+	}
+	
+	#dash-content .dashboard-homepage-wrapper .card-counter .card .value-wrapper .value{
+		font-size: var(--medium-font);
+		text-transform: capitalize;
+		font-weight: 300;
+		font-family: 'Poppins', sans-serif;
+		color: rgba(0, 0, 0, 0.65);
+		text-align: center;
+	}
+	
+	#dash-content .dashboard-homepage-wrapper .card-counter .card .value-wrapper .value .symbol{
+		font-size: var(--medium-font);
+		text-transform: capitalize;
+		font-weight: 700;
+		font-family: 'Poppins', sans-serif;
+		color: rgba(0, 0, 0, 0.65);
+	}
+	
+	
+	
+	#dash-content .dashboard-homepage-wrapper .card-counter .card:nth-last-child(1){
+		background-color: var(--sidebar-bg-color);
+		color :  var(--sidebar-color);
+	}
+	
+	#dash-content .dashboard-homepage-wrapper .card-counter .card:nth-last-child(1) .value-wrapper .text,
+	#dash-content .dashboard-homepage-wrapper .card-counter .card:nth-last-child(1) .value-wrapper .value,
+	#dash-content .dashboard-homepage-wrapper .card-counter .card:nth-last-child(1) .icon,
+	#dash-content .dashboard-homepage-wrapper .card-counter .card:nth-last-child(1) .value-wrapper .value .symbol{
+		color :  var(--sidebar-color);
+	}
+	
+	#dash-content .dashboard-homepage-wrapper .information-graph-wrapper{
+		margin: 1rem 0px;
+	}
+	
+	
+	#dash-content .dashboard-homepage-wrapper .card{
+		height: 100%;
+	}
+	
+	#dash-content .dashboard-homepage-wrapper .information-graph-wrapper .graph-card{
+	border: none;
+	}
+	
+	
+	#dash-content .dashboard-homepage-wrapper .information-graph-wrapper .graph-card #app_chart{
+	width: 100%;
+	height: 550px;
+	}
+	
+	
+	#dash-content .dashboard-homepage-wrapper  .card .card-header{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	
+	#dash-content .dashboard-homepage-wrapper .card .card-header .title
+	{
+		font-size: var(--medium-font);
+		font-weight: 700;
+		color: var(--sidebar-bg-color);
+		text-transform: capitalize;
+		letter-spacing: 0.8px;
+	}
+	
+	#dash-content .dashboard-homepage-wrapper  .card .card-header .homepage-card-btn{
+		font-size: var(--small-font);
+		text-transform: capitalize;
+		font-family: 'Raleway', sans-serif;
+		font-weight: 300;
+		background-color:  var(--sidebar-bg-color);
+		color: var(--sidebar-color);
+		padding: 8px;
+	}
+	
+	
+	#dash-content .dashboard-homepage-wrapper .information-graph-wrapper .card .card-body .customer-info-wrapper{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin: 1rem 0.5rem;
+	}
+	
+	
+	#dash-content .dashboard-homepage-wrapper .information-graph-wrapper .card .card-body .customer-info-wrapper .img-fluid{
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		margin-right: 0.5rem;
+	}
+	
+	#dash-content .dashboard-homepage-wrapper .information-graph-wrapper .card .card-body .customer-info-wrapper .info .customer-name{
+		text-transform: capitalize;
+		font-size: var(--normal-font);
+		font-weight: 700;
+		letter-spacing: 0.5px;
+		padding: 0px;
+		margin: 0;
+	}
+	
+	#dash-content .dashboard-homepage-wrapper .information-graph-wrapper .card .card-body .customer-info-wrapper .info .text-muted{
+		text-transform: capitalize;
+		font-size: var(--small-font);
+		letter-spacing: 0.5px;
+		padding: 4px 8px;
+	}
+	
+	#dash-content .dashboard-homepage-wrapper .information-graph-wrapper .card .card-body .customer-info-wrapper .action .action-link{
+		padding: 8px 10px;
+		color: var(--sidebar-bg-color);
+		font-weight: 700;;
+		font-size: var(--medium-font);
+		transition: 0.5s ease;
+	}
+	
+	#dash-content .dashboard-homepage-wrapper .information-graph-wrapper .card .card-body .customer-info-wrapper .action .action-link:hover{
+		opacity: 0.5;
+	}
+	
+	#dash-content .dashboard-homepage-wrapper .inventory-manager{
+		margin: 1rem 0px;
+	}
+	
+	#dash-content .dashboard-homepage-wrapper .inventory-manager{
+		margin: 1rem 0px;
+	}
+	
+
+	
+	
+	#dash-content .dashboard-homepage-wrapper .inventory-manager .card .card-body .table .activity-wrapper  .text{
+		margin: 0px;
+		padding: 4px 0px;
+		font-size: var(--normal-font);
+	}
+	
+	#dash-content .dashboard-homepage-wrapper  .card .card-body .table td{
+		padding: 0.5rem 0px;
+	}
+	
+	#dash-content .dashboard-homepage-wrapper  .card .card-body .table th{
+		text-transform: capitalize;
+		font-size: var(--normal-font);
+		font-weight: 700;
+	}
+	
+	
+	@media screen and (max-width : 1050px){
+		#dash-content .dashboard-homepage-wrapper .card-counter{
+		display: grid;
+		grid-template-columns: repeat(2, minmax(150px, 1fr));
+		grid-column-gap: 30px;
+		grid-row-gap: 10px;
+		margin: 0.5rem 0px;
+	}
+	}
+	
+	@media screen and (max-width : 450px){
+		#dash-content .dashboard-homepage-wrapper .card-counter{
+		display: grid;
+		grid-template-columns: repeat(1, minmax(150px, 1fr));
+		grid-column-gap: 30px;
+		grid-row-gap: 10px;
+		margin: 0.5rem 0px;
+	}
+		
+		
+		
+		#dash-content .dashboard-homepage-wrapper  .card .card-body .table td {
+     padding: 5px 10px !important; 
+		}
+		
+		#dash-content .dashboard-homepage-wrapper .information-graph-wrapper .graph-card .card-body{
+			padding: 2px;
+			}
+		
+		#dash-content .dashboard-homepage-wrapper .information-graph-wrapper .card .card-body .customer-info-wrapper .action .action-link {
+    padding: 8px 3px;
+}
+	}
